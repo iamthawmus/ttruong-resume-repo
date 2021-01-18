@@ -1,0 +1,39 @@
+{
+    "data":[
+        {
+            "title": "SOFTWARE ENGINEER @ LIGHTBOX",
+            "subtitle1": "January 2019 – April 2020 [Spatial Stream Team]",
+            "subtitle2": "C#, .NET, JavaScript, Node.js, Docker, Kubernetes, Microservices, RESTful APIs, MS SQL, MY SQL, Jenkins",
+            "bullets": [
+                "Developed and Designed the Batch Query Microservice with a schema first approach using swagger.io and NodeJS which queries large data sets in batches and processes the data using user provided parameters before returning the data back to the caller",
+                "Developed and deployed various Microservices to Kubernetes cluster",
+                "Maintained and Enhanced GetQuery API which allows users to query data from various data centers that processes on average 10 million data records a day",
+                "Developed Cloud-based prototype of data layer that involves storage and querying using AWS by setting up an existing microservice on an AWS EC2 instance using CLI and connecting it to the AWS Aurora MySQL Cluster",
+                "Wrote and maintained essential unit tests that covers major API services utilizing Postman and Jenkins to run the tests",
+                "Participated in Live patch deployment and support"
+            ]
+        },
+        {
+            "title": "SOFTWARE ENGINEER @ DIGITAL MAP PRODUCTS",
+            "subtitle1": "January 2017 – January 2019 [Rapid Applications Platform Team]",
+            "subtitle2": "JavaScript, Node.js, Microservices, RESTful APIs, Webpack, XML, Camunda Modeler, BPMN",
+            "bullets": [
+                "Designed and developed a Workflow Engine to allow end users to create wizard-like workflows based on BPMN Model diagrams",
+                "Designed and developed an in-house Process Designer that integrated the BPMN Camunda Modeler open-sourced library to enable end users to embark on codeless programming by setting up diagrams that would run complex code underneath the surface without the user having to understand or have knowledge of coding",
+                "Designed and developed Node JS service that gathered data from an external source (CalSurv) then processed the data and saved to internal MySQL database, then would periodically check for updates in order to keep internal database up-to-date automatically",
+                "Worked in coordination across multiple teams to gather requirements for the development and enhancement of various internal tools such as the Barcode Generator and Data Change Trigger"
+            ]
+        },
+        {
+            "title": "SOFTWARE ENGINEER @ DIGITAL MAP PRODUCTS",
+            "subtitle1": "October 2015 – January 2017 [Gov Clarity Team] ",
+            "subtitle2": "JavaScript, React JS, Redux, HTML, CSS, Adobe PhoneGap, Cordova ",
+            "bullets": [
+                "Designed and developed migration process of LandVision desktop web application to iOS mobile application using Adobe PhoneGap",
+                "Developed reusable and extensible components using React JS and Redux JS to replace older jQuery UI components ",
+                "Worked in coordination with Design Team to translate UX wireframes and mock-ups into full-fledged components",
+                "Designed and developed various components for iOS application that utilizes specific mobile device apparatus such as Log out panel, modal alert panel the utilized user’s GPS to send pop notifications within the application, card list side panel that gets populated with cards depending on the user account data and GPS location"
+            ]
+        }
+    ]
+}
