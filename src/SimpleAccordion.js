@@ -5,63 +5,51 @@ import AccordionSummary from "@material-ui/core/AccordionSummary";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import SimpleList from "./SimpleList";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%"
   },
   heading: {
-    fontSize: theme.typography.pxToRem(18),
+    fontSize: theme.typography.pxToRem(17),
     fontWeight: theme.typography.fontWeightRegular
   }
 }));
 
-export default function SimpleAccordion() {
+export default function SimpleAccordion({ data }) {
   const classes = useStyles();
+  //data.data.map((entry, index) => {
+  let arr = data.data;
 
   return (
     <div className={classes.root}>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography className={classes.heading}>Accordion 1</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography className={classes.heading}>Accordion 2</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion disabled>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel3a-content"
-          id="panel3a-header"
-        >
-          <Typography className={classes.heading}>
-            Disabled Accordion
-          </Typography>
-        </AccordionSummary>
-      </Accordion>
+      {arr.map((entry, index) => {
+        let count = index + 1;
+        let aControls = "panel" + count + "a-content";
+        let id = "panel" + count + "a-header";
+        const title = entry != null ? entry.title : "Test";
+        const subTitle1 = entry != null ? entry.subtitle1 : "";
+        const subTitle2 = entry != null ? entry.subtitle2 : "";
+        const bullets = entry != null ? entry.bullets : [];
+        return (
+          <Accordion key={index}>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls={aControls}
+              id={id}
+            >
+              <Typography className={classes.heading}>{title}</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography>{subTitle1}</Typography>
+              <Typography>{subTitle2}</Typography>
+              <SimpleList data={bullets}></SimpleList>
+            </AccordionDetails>
+          </Accordion>
+        );
+      })}
     </div>
   );
+  //});
 }

@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "title": "SOLE DEVELOPER of One Last Dungeon",
+      "subtitle1": "April 2020 - January 2021",
+      "subtitle2": "C#, Unity3d, Dragonbones",
+      "bullets": [
+        "Released on STEAM on December 24th 2020",
+        "Designed and developed a 2D rogue-like, dungeon crawler, turn-based, RPG, card game using the Unity3d game engine and C# programming language",
+        "Integrated and utilized DragonBones 3rd party library to handle enemy character animations"
+      ]
+    }
+  ]
+}
