@@ -10,9 +10,9 @@ const useStyles = makeStyles({
   }
 });
 
-export default function CenteredTabs({ value, handleChange }) {
+export default function CenteredTabs({ value, handleChange, tabNames }) {
   const classes = useStyles();
-
+  const arr = tabNames;
   return (
     <Paper className={classes.root}>
       <Tabs
@@ -22,9 +22,12 @@ export default function CenteredTabs({ value, handleChange }) {
         textColor="primary"
         centered
       >
-        <Tab label="Experience"></Tab>
-        <Tab label="Projects"></Tab>
-        <Tab label="Education"></Tab>
+        {arr != null
+          ? arr.map((entry, index) => {
+              const tempKey = "Tab" + index;
+              return <Tab label={entry} key={tempKey}></Tab>;
+            })
+          : null}
       </Tabs>
     </Paper>
   );

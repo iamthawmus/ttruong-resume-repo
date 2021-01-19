@@ -1,0 +1,37 @@
+{
+    "data": [
+      {
+        "title": "Frontend",
+        "subtitle1": "",
+        "subtitle2": "",
+        "bullets": [
+          "Languages: JS, HTML, CSS",
+          "Libraries: ReactJS, ReduxJS"
+        ]
+      },
+      {
+        "title": "Backend",
+        "subtitle1": "",
+        "subtitle2": "",
+        "bullets": [
+          "Languages: JS, C#",
+          "Libraries: NodeJS, .NET",
+          "Databases: MSSql, MySql, MongoDB, Redis",
+          "Container: Docker, Kubernetes",
+          "Cloud: AWS EC2, AWS Aurora MySql",
+          "Concepts: Microservices, RESTful APIs"
+        ]
+      },
+      {
+        "title": "Videogame Development",
+        "subtitle1": "",
+        "subtitle2": "",
+        "bullets": [
+          "Languages: C#",
+          "Libraries: Dragonbones",
+          "Game Engines: Unity3d"
+        ]
+      }
+    ]
+  }
+  

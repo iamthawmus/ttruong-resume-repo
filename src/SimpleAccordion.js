@@ -6,6 +6,7 @@ import AccordionDetails from "@material-ui/core/AccordionDetails";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import SimpleList from "./SimpleList";
+import Link from "@material-ui/core/Link";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -19,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function SimpleAccordion({ data }) {
   const classes = useStyles();
-  //data.data.map((entry, index) => {
+
   let arr = data.data;
 
   return (
@@ -32,6 +33,7 @@ export default function SimpleAccordion({ data }) {
         const subTitle1 = entry != null ? entry.subtitle1 : "";
         const subTitle2 = entry != null ? entry.subtitle2 : "";
         const bullets = entry != null ? entry.bullets : [];
+        const link = entry != null && entry.link != null ? entry.link : null;
         return (
           <Accordion key={index}>
             <AccordionSummary
@@ -41,11 +43,19 @@ export default function SimpleAccordion({ data }) {
             >
               <Typography className={classes.heading}>{title}</Typography>
             </AccordionSummary>
-            <AccordionDetails>
-              <Typography>{subTitle1}</Typography>
-              <Typography>{subTitle2}</Typography>
-              <SimpleList data={bullets}></SimpleList>
-            </AccordionDetails>
+            {link != null ? (
+              <AccordionDetails>
+                <Typography>
+                  <Link href={link}>{subTitle1}</Link>
+                </Typography>
+              </AccordionDetails>
+            ) : (
+              <AccordionDetails>
+                <Typography>{subTitle1}</Typography>
+                <Typography>{subTitle2}</Typography>
+                <SimpleList data={bullets}></SimpleList>
+              </AccordionDetails>
+            )}
           </Accordion>
         );
       })}

@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "title": "One Last Dungeon",
+      "subtitle1": "Click to view STEAM page",
+      "subtitle2": "",
+      "bullets": [],
+      "link": "https://store.steampowered.com/app/1398420/One_Last_Dungeon/"
+    },
+    {
+      "title": "LinkedIn",
+      "subtitle1": "Click to view my profile",
+      "subtitle2": "",
+      "bullets": [],
+      "link": "https://www.linkedin.com/in/iamthawmus/"
+    },
+    {
+      "title": "GitHub Repository",
+      "subtitle1": "Click to view source code for this page",
+      "subtitle2": "",
+      "bullets": [],
+      "link": "https://github.com/iamthawmus/ttruong-resume-repo"
+    }
+  ]
+}

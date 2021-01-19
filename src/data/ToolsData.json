@@ -1,0 +1,34 @@
+{
+    "data": [
+      {
+        "title": "Workplace Methodology",
+        "subtitle1": "",
+        "subtitle2": "",
+        "bullets": [
+          "Methodology: AGILE",
+          "Issue Tracking: JIRA",
+          "Duration: 2 Week Sprints",
+          "Duties: Daily SCRUM meetings"
+        ]
+      },
+      {
+        "title": "Dev Tools",
+        "subtitle1": "",
+        "subtitle2": "",
+        "bullets": [
+          "Source Control: Git / Bitbucket",
+          "Debugging Tools: Chrome Debugger, Fiddler, Postman"
+        ]
+      },
+      {
+        "title": "Other",
+        "subtitle1": "",
+        "subtitle2": "",
+        "bullets": [
+          "Image Editor: GIMP",
+          "Video Editor: DaVinci Resolve"
+        ]
+      }
+    ]
+  }
+  
