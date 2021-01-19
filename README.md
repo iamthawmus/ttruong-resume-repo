@@ -1,2 +1,3 @@
 # ttruong-resume-repo
-Created with CodeSandbox
+
+Hi welcome to my resume :)
