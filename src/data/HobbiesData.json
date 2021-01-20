@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "title": "Fitness",
+      "subtitle1": "",
+      "subtitle2": "",
+      "bullets": [
+        "Before COVID: I was an avid gym goer usually at least 1-2 hours everyday, usually lifting weights and doing cardio",
+        "During COVID: I've been using RingFit (a Video game on Nintendo Switch console) and home body weight workouts to keep in shape",
+        "Nutrition: I keep track of what I drink and eat and log it into MyFitnessPal to ensure I am always on the right track to my fitness goals"
+      ]
+    },
+    {
+      "title": "Videogames",
+      "subtitle1": "",
+      "subtitle2": "",
+      "bullets": [
+        "Avid Gamer: I've been playing video games since I was in elementary school. My first console was the Nintendo 64.",
+        "Current Consoles I own: Nintendo Switch, PS4, PC",
+        "Favorite Games of 2020: Hades, Animal Crossing, The Last of Us 2, Final Fantasy 7 Remake",
+        "Favorite Game of all time: The Legend of Zelda - Ocarina of Time"
+      ]
+    }
+  ]
+}
