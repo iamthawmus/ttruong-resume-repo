@@ -1,7 +1,17 @@
 {
   "data": [
     {
-      "title": "SOFTWARE ENGINEER @ LIGHTBOX [Spatial Stream Team]",
+      "title": "SOFTWARE ENGINEER II @ MERIDIANLINK",
+      "subtitle1": "March 2021 – Current",
+      "subtitle2": "JavaScript/TypeScript, C#, .NET Core, React JS, MS SQL, Azure",
+      "bullets": [
+        "Worked on the development of new ML Consumer application transforming old ASP.NET application functionality into a new modern application utilizing React JS Frontend and .NET Core backend",
+        "Maintained, Enhanced and Implemented new features such as new backend C# .NET APIs and front-end React JS components while improving unit testing and code coverage",
+        "Worked on support often looking into various bugs and inquiries that appear outside of sprint commitment in order to keep bugs an inquiry count low for user"
+      ]
+    },
+    {
+      "title": "SOFTWARE ENGINEER @ LIGHTBOX",
       "subtitle1": "January 2019 – April 2020",
       "subtitle2": "C#, .NET, JavaScript, Node.js, Docker, Kubernetes, Microservices, RESTful APIs, MS SQL, MY SQL, Jenkins",
       "bullets": [
@@ -14,25 +24,16 @@
       ]
     },
     {
-      "title": "SOFTWARE ENGINEER @ DIGITAL MAP PRODUCTS [Rapid Applications Platform Team]",
-      "subtitle1": "January 2017 – January 2019",
-      "subtitle2": "JavaScript, Node.js, Microservices, RESTful APIs, Webpack, XML, Camunda Modeler, BPMN",
-      "bullets": [
-        "Designed and developed a Workflow Engine to allow end users to create wizard-like workflows based on BPMN Model diagrams",
-        "Designed and developed an in-house Process Designer that integrated the BPMN Camunda Modeler open-sourced library to enable end users to embark on codeless programming by setting up diagrams that would run complex code underneath the surface without the user having to understand or have knowledge of coding",
-        "Designed and developed Node JS service that gathered data from an external source (CalSurv) then processed the data and saved to internal MySQL database, then would periodically check for updates in order to keep internal database up-to-date automatically",
-        "Worked in coordination across multiple teams to gather requirements for the development and enhancement of various internal tools such as the Barcode Generator and Data Change Trigger"
-      ]
-    },
-    {
-      "title": "SOFTWARE ENGINEER @ DIGITAL MAP PRODUCTS [Gov Clarity Team]",
-      "subtitle1": "October 2015 – January 2017",
-      "subtitle2": "JavaScript, React JS, Redux, HTML, CSS, Adobe PhoneGap, Cordova ",
+      "title": "SOFTWARE ENGINEER @ DIGITAL MAP PRODUCTS",
+      "subtitle1": "October 2015 – January 2019",
+      "subtitle2": "JavaScript, React JS, Redux, HTML, CSS, Microservices, RESTful APIs ",
       "bullets": [
         "Designed and developed migration process of LandVision desktop web application to iOS mobile application using Adobe PhoneGap",
         "Developed reusable and extensible components using React JS and Redux JS to replace older jQuery UI components ",
         "Worked in coordination with Design Team to translate UX wireframes and mock-ups into full-fledged components",
-        "Designed and developed various components for iOS application that utilizes specific mobile device apparatus such as Log out panel, modal alert panel the utilized user’s GPS to send pop notifications within the application, card list side panel that gets populated with cards depending on the user account data and GPS location"
+        "Designed and developed various components for iOS application that utilizes specific mobile device apparatus such as Log out panel, modal alert panel the utilized user’s GPS to send pop notifications within the application, card list side panel that gets populated with cards depending on the user account data and GPS location",
+        "Designed and developed Node JS service that gathered data from an external source (CalSurv) then processed the data and saved to internal MySQL database, then would periodically check for updates in order to keep internal database up-to-date automatically",
+        "Worked in coordination across multiple teams to gather requirements for the development and enhancement of various internal tools such as the Barcode Generator and Data Change Trigger"
       ]
     }
   ]
